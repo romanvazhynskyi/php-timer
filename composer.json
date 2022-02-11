@@ -1,0 +1,26 @@
+{
+    "name": "romanvazhynskyi/php-timer",
+    "description": "Allows executing a callback once or repeatedly at a specified interval",
+    "type": "library",
+    "keywords": [
+        "php timers",
+        "timers",
+        "timeout"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roman Vazhynskyi",
+            "email": "rvazhynskyi@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1|^8.0",
+        "ext-pcntl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Timer\\": "src/"
+        }
+    }
+}
